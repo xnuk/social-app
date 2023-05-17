@@ -148,6 +148,8 @@ export const ComposePost = observer(function ComposePost({
 
       setIsProcessing(true)
 
+      return console.log('dick')
+
       let createdPost
       try {
         createdPost = await apilib.post(store, {
